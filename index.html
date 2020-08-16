@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+<style>
+ body {
+        background-color:#D6F8F2;
+
+    }
+
+</style>
+
+<body>
+<fieldset>
+<Legend>
+    <h2>Simple Registration Form</h2>
+	</Legend>
+    <form>
+
+            <br>
+
+            <datalist id="names">
+                <option value="Sohag">Sohag</option>
+                <option value="Sajib">Sajib</option>
+                <option value="AAAA">Rana</option>
+
+            </datalist>
+            <b>First Name: </b><input type="text" name="ass" placeholder="Enter first name" list="names" required pattern="[a-zA-Z0-9]+"><br></br>
+
+
+            <div class="bg">
+
+            </div>
+            <b>Last Name: </b><input type="text" name="ds" placeholder="Enter last name"><br></br>
+			            <b>Email: </b><input type="text" name="ds" placeholder="Enter the email"><br></br>
+            <b>Password: </b><input type="password" name="ss" placeholder="Enter password" required pattern="[a-zA-Z0-9]+"><br></br>
+
+            <b>Gender: </b><input type="radio" name="rr" value="male">male<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="rr" value="female">Female<br></br>
+
+
+
+            <b>Religon</b><input type="checkbox" name="islam" value="Islam">Islam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="hindu" value="Islam">Hindu<br></br>
+
+
+
+            <b>Depatment: </b> <select name="department">
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>LLB</option>
+            </select><br></br>
+
+            <b>Mobile:</b> <select name="mobile">
+                <option>+088</option>
+                <option>+996</option>
+                <option>+001</option>
+            </select>
+            <input type="text" name="phn"><br></br>
+            <hr>
+
+
+            <u>
+                <p id="comment">Comment</p>
+            </u>
+            <textarea name="t1" rows="8" cols="40" id="corner">
+</textarea> <br></br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<input id="button" type="Submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="button" type="Reset" value="Reset">
+            <br></br>
+       </fieldset>     
+    </form>
+
+</body>
+
+</html>
